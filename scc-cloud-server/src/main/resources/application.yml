@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+       native:
+         search-locations: D:/temp/conf

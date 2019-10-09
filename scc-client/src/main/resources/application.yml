@@ -1,0 +1,16 @@
+server:
+ port: 8030
+
+spring:
+ application:
+  name: scc-client
+
+######自定义配置######
+system:
+ id: 1
+ name: 订单系统
+ env: online
+ scc-server: localhost:8020
+
+ redis-enable: true
+ db-enable: true
